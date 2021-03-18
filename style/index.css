@@ -1,1 +1,100 @@
-/* Add CSS styling here */
+* {
+    font-family:fantasy;
+    background-color: FloralWhite;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-left: 0rem;
+  }
+  
+  button {
+    margin: 0 10px;
+    border: 1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 20px;
+    background-color: deepskyblue;
+  }
+  
+  li {
+    margin: 0 10px;
+    border: 1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: deepskyblue;
+  }
+  
+  li a {
+    text-decoration: none;
+    background-color: deepskyblue;
+    color: white;
+  }
+  
+  .profilepic {
+    margin-left: 10rem;
+    border-radius: 20px;
+  }
+  
+  body section {
+    display: flex;
+  }
+  
+  body section h2 {
+    margin-left: 2rem;
+  }
+  
+  body section p {
+    margin-top: 4rem;
+    margin-left: -4rem;
+    margin-right: 10rem;
+  }
+  
+  h3 {
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  
+  .flexbox {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .flexbox div {
+    margin: 1rem;
+  }
+  
+  .flexbox div img{
+      border-radius: 10px;
+  }
+  
+  .flexbox img {
+    max-width:100%;
+  }
+  
+  .boxtext {
+    margin-top: 6rem;
+    margin-left: 2rem;
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+  }
